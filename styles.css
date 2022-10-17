@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #0D192C;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    width: 327px;
+    height: 543px;
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+}
+
+.relative {
+    position: relative;
+    padding: 24px;
+}
+
+.relative:hover .bg-container {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.relative:hover .eye {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.relative:hover .img-lg {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img-lg {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.bg-container {
+    position: absolute;
+    width: 279px;
+    height: 279px;
+    border-radius: 8px;
+    top: 24px;
+    background-color: #00FFF8;
+    opacity: 0;
+}
+
+.eye {
+    position: absolute;
+    top: calc(50% - 24px);
+    right: calc(50% - 24px);
+    opacity: 0;
+}
+
+.part-1 {
+    margin: 0 24px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    margin-bottom: 16px;
+}
+
+.part-2 {
+    margin: 0 24px;
+    margin: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-txt {
+    margin-left: 6.48px;
+}
+
+.icon-eth {
+    font-size: 15px;
+    line-height: 19px;
+    color: #00FFF8;
+}
+
+.icon-clock {
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+}
+
+hr {
+    margin: 0 24px;
+    border: none;
+    height: 1px;
+    background-color: #2E405A;
+    margin-bottom: 16px;
+}
+
+.part-3 {
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.avatar-txt {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+    margin-left: 16px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+h1:hover, .name:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 16px 0; 
+    color: #FFFFFF;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
